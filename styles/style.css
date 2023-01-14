@@ -1,0 +1,57 @@
+/* Font */
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Roboto+Mono&family=Work+Sans&display=swap');
+</style>
+
+/* Universal Styles */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Styles */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    
+}
+
+.header{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+nav > ul > li{
+    list-style: none;
+    display: inline;
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+/* Header Banner Styles */
+.header-banner{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.head-img > img{
+    width: 100%;
+    
+}
