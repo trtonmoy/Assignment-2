@@ -45,13 +45,83 @@ nav > ul > li{
 }
 
 /* Header Banner Styles */
-.header-banner{
-    display: flex;
-    flex-direction: column;
-    
+.head-content{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.head-title{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.head-content > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
 }
 
 .head-img > img{
     width: 100%;
-    
+    padding-bottom: 50px;
+}
+
+.header-button{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    padding: 20px 30px;
+    margin: 40px 0;
+    background-color: #FF900E;
+    border-radius: 10px;
+    border: 0;
+}
+
+/* Service Section Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 100px;
+}
+
+.service-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+article{
+    text-align: left;
+}
+article > h3{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 53px;
+}
+
+article > p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.our{
+    font-weight: 700;
+    color: #131313;
+}
+
+.feature{
+    font-weight: 700;
+    color: #FF900E;
 }
