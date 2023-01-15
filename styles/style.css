@@ -176,7 +176,7 @@ article > p{
 
 .secondary-service > img{
    height: 800px;
-   padding-left: 50px;
+   padding-left: 80px;
     border-radius: 8px;
 }
 
@@ -190,7 +190,7 @@ article > p{
     background-color: #FF900E;
     border-radius: 10px;
     border: 0;
-    right: 20rem;
+    right: 25rem;
     top: 180rem;
 
     position: absolute;
@@ -245,13 +245,6 @@ footer{
     transform: scale(3);
 }
 
-.reward:hover{
-    /* transform: scale(3); */
-}
-
-.reward{
-    /* transition: transform .5s; */
-}
 
 .ach-content > h1{
     font-size: 45px;
@@ -267,9 +260,11 @@ footer{
     margin-top: 5px;
 }
 
+/* Sponsor Section */
 
 .sponsor-content{
     text-align: center;
+    margin-top: 100px;
 
 }
 
@@ -302,7 +297,7 @@ footer{
 .footer-logo{
     padding: 20px;
     text-align: center;
-    background-color: rgb(241, 231, 194);
+    background-color: #FFF4E7;
     margin: 30px 0 60px 0;
     border-radius: 8px;
 }
@@ -316,11 +311,6 @@ footer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-left: 60px;
-}
-/* 
-.bonus-content{
-    display: flex;
-    flex-direction: column; */
 }
 
 .bonus-content{
