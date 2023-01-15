@@ -391,9 +391,16 @@ footer{
 @media only screen and (max-width: 688px) {
     .bonus-section{
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 0;
     }
 
     .bonus-content > img{
+        width: 100%;
+    }
+
+    .bonus-container{
+        padding: 0;
+        margin: 0;
         width: 100%;
     }
 }
